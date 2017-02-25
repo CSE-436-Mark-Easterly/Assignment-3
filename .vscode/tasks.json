@@ -2,7 +2,7 @@
     "version": "0.1.0",
     "command": "gcc",
     "isShellCommand": true,
-    "args": ["barrier.c", "-o", "barrier"],
+    "args": ["barrier.c", "-o", "barrier", "-lpthread"],
     "showOutput": "always",
     "problemMatcher": {
         "owner": "cpp",
